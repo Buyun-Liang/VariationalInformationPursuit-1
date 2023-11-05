@@ -1,5 +1,5 @@
 # This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
+# $ conda create --name <env> --file <this file> -c conda-forge -c pytorch -c defaults
 # platform: linux-64
 _libgcc_mutex=0.1=main
 _openmp_mutex=5.1=1_gnu
@@ -54,6 +54,7 @@ numpy=1.23.1=py39h6c91a56_0
 numpy-base=1.23.1=py39ha15fc14_0
 openh264=2.1.1=h4ff587b_0
 openssl=1.1.1q=h7f8727e_0
+pandas=2.1.1=py39h1128e8f_0 
 pathtools=0.1.2=py_1
 pillow=9.2.0=py39hace64e9_1
 pip=22.2.2=py39h06a4308_0
